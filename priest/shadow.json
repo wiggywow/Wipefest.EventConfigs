@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "id": "VO",
+    "name": "Void Torrent",
+    "tags": [ "priest", "shadow" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 205065
+      }
+    }
+  },
+  {
+    "id": "VF",
+    "name": "Voidform (Stacks)",
+    "tags": [ "priest", "shadow" ],
+    "show": false,
+    "friendly": true,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applybuffstack",
+      "ability": {
+        "id": 194249
+      }
+    }
+  },
+  {
+    "id": "V2",
+    "name": "Voidform",
+    "tags": [ "priest", "shadow" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 194249
+      }
+    }
+  },
+  {
+    "id": "V1",
+    "name": "Voidform (Removed)",
+    "tags": [ "priest", "shadow" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 194249
+      }
+    }
+  },
+  {
+    "id": "VI",
+    "name": "Void Eruption",
+    "tags": [ "priest", "shadow" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 228260
+      }
+    }
+  }
+]
